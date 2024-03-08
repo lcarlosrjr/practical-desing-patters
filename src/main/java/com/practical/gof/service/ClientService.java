@@ -1,7 +1,6 @@
 package com.practical.gof.service;
 
 import com.practical.gof.model.Client;
-import org.springframework.stereotype.Service;
 
 public interface ClientService {
 
@@ -9,9 +8,9 @@ public interface ClientService {
 
     Client getClientById(Long id);
 
-    void insetClient(Client cliente);
+    void insertClient(Client client);
 
-    void updateClient(Long id, Client cliente);
+    void updateClient(Long id, Client client);
 
     void deleteClient(Long id);
 }
